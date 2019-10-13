@@ -1,0 +1,142 @@
+.block-table
+  .fas.fa-eye
+    color: $white
+    opacity: 0.8
+    position: absolute
+    font-size: 42px
+    display: none
+  .eye-block
+    display: flex
+    align-items: center
+    justify-content: center
+  .search-list
+    padding-top: 70px
+  .the-content
+    margin: 20px 0
+  .table-image
+    width: 100%
+
+
+
+  .block-table-product
+    //padding-bottom: 70px
+    .h2-table
+      font-size: 30px
+      line-height: 30px
+      color: #333333
+      font-family: "MyriadPro", sans-serif
+      font-weight: bold
+      text-align: center
+    .block-content-product
+      box-shadow: 0 0 23px -4px transparentize(#000, .25)
+      margin-top: 25px
+      position: relative
+      margin-bottom: 70px
+      &:hover
+        .bolt-img
+          transform: rotate(320deg)
+          transition: all 0.3s ease
+      .content-img
+        position: relative
+        height: 100%
+        padding: 40px
+        text-align: center
+        &:hover
+          .eye-block
+            background: $black
+            .fas.fa-eye
+              display: block
+            .table-image
+              opacity: 0.5
+
+        &:before
+          content: ""
+          position: absolute
+          width: 34px
+          height: 93px
+          left: 100%
+          top: 0
+          background: url("../img/table-trianle.png") no-repeat 0 0 / 34px 93px
+          z-index: 46
+          @include media-breakpoint-down(lg)
+            display: none
+        &:after
+          content: ""
+          background: url("../img/table-shadow.png") repeat-y 0 0 / 34px auto
+          width: 34px
+          display: block
+          position: absolute
+          top: 93px
+          bottom: 0
+          left: 100%
+          z-index: 45
+          @include media-breakpoint-down(lg)
+            display: none
+        .content-images
+      .table-content-info
+        width: 80%
+        margin: 0 auto
+        padding: 55px 0
+        @include media-breakpoint-down(md)
+          width: auto
+          padding-left: 5px
+          padding-right: 5px
+        table
+          width: 100%
+          display: table
+          border-collapse: separate
+          border-spacing: 0 15px
+          td,
+          th
+            padding: 8px 5px
+          td
+            border-top: $table-borders
+            border-bottom: $table-borders
+            border-left: $table-borders
+            &:first-child
+              border-left: $table-borders
+            &:last-child
+              border-right: $table-borders
+          .th
+            font-size: 20px
+            line-height: 25px
+            color: #333333
+            font-family: "MyriadPro", sans-serif
+            font-weight: bold
+            text-align: center
+          th
+            &:nth-last-child(3)
+              width: 330px
+              text-align: left
+            &:nth-last-child(2)
+              width: 99px
+            &:nth-last-child(1)
+              width: 99px
+          td
+            text-align: center
+            &:nth-last-child(3)
+              width: 330px
+              text-align: left
+          .td
+            font-size: 18px
+            color: #333333
+            font-family: "MyriadPro", sans-serif
+            display: table-cell
+          .tr
+            margin-top: 5px
+            border-spacing: 7px 11px
+            border-collapse: separate
+            display: table-row
+.nothing
+  font-family: "MyriadPro", sans-serif
+  font-weight: bold
+  font-size: 24px
+  display: none
+  box-shadow: 0 0 23px -4px transparentize(#000, .25)
+  margin: 80px auto 40vh auto
+  width: 100%
+  padding: 35px 0
+  text-align: center
+  .nothing_text
+    font-size: 25px
+    font-weight: 600

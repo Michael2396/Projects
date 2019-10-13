@@ -1,0 +1,16 @@
+.container.content-contacts.container-mobile
+    nav.navbar.navbar-expand-lg
+        .logo
+            img.logo(src='/assets/img/logo.png' alt='')
+        button.navbar-toggler.navbar-light.collapsed(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+            ul.list-inline.navbar-nav.ml-auto.navbar-nav-mobile
+                li.nav-item
+                    .navbar-text
+                        include _email-block
+
+                li.nav-item
+                    .navbar-text
+                        include _phone-block
+

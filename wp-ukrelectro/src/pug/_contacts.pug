@@ -1,0 +1,47 @@
+.contacts
+    .contacts-content
+        .container
+            .contacts-header.text-center
+                .contacts-header-text Контакты
+            .row
+                .col-6
+                    .contacts-1
+                        .contact-address
+                            .contact-logo
+                                img(src="/assets/images/contacts-logo-1.png")
+                            .contact-text
+                                | Украина
+                                br
+                                | Запорожская область
+                                br
+                                | Запорожье
+                                br
+                                | ул. Седова
+                                br
+                                | 69000
+                        .contact-phones
+                            .contact-logo
+                                img(src="/assets/images/contacts-logo-2.png")
+                            .contact-text
+                                a(href="tel:+38 067 828-48-48") +38 067 828-48-48
+                                a(href="tel:+38 067 634-66-21") +38 067 634-66-21
+                                a(href="tel:+38 061 701-39-15") +38 061  701-39-15
+                        .contact-email
+                            .contact-logo
+                                img(src="/assets/images/contacts-logo-3.png")
+                            .contact-text
+                                a(href="mailto:g_mts@ukr.net") g_mts@ukr.net
+                .col-6
+                    .contact-form-popup
+                        .contact-border
+                        .contact-form
+                            .contact-form-content
+                                .form-head.text-center Напишите нам
+                                form(action="1index.php" method="post" enctype="multipart/form-data")
+                                    label(for="name") Ваше имя
+                                    input(type="text", id="name" placeholder="Иван", name="name")
+                                    label(for="email") Ваш E-mail
+                                    input(type="email", id="email", placeholder="vasha_pochta@gmail.com", name="email")
+                                    label(for="phone") Ваш телефон
+                                    input(type="tel", id="phone", placeholder="+380660000000", name="phone")
+                                    input(type="submit", value="Связаться с нами" name="sab")

@@ -1,0 +1,37 @@
+- var productImages = ["/assets/img/table-content2.png", "/assets/img/table-content.png","/assets/img/table-content2.png"]
+- var nameProduct = ["Пластиковый хомут для крепления канализационных труб от д32 до д110","Пластиковый хомут для крепления вентиляционных труб от д32 до д250","Пластиковый хомут для крепления канализационных труб от д32 до д550"]
+- var descriptionHead = ["Наименование","фасовка шт","цена шт грн"]
+- var description = ["Хомут для канализационных труб, 32мм","750/25","6.00"]
+- var productSets1 = ["/assets/img/table-content.png","/assets/img/table-content.png"]
+- var dataLightbox1 = ["img-"]
+- for (var x=0;x<Math.random()*20+5;x++)
+    .block-table-product
+            .container
+                .search-list
+                    h2 Хомут для канализационных труб, 32мм
+                    .block-content-product
+                        .row
+                            .col-xl-4.col-md-12
+                                    .content-img
+                                       a(href="/assets/img/table-content.png", data-lightbox='img-'+[x], data-title='My caption')
+                                                img(src="/assets/img/table-content.png")
+                                       a(href="/assets/img/table-content2.png", data-lightbox='img-' + [x], data-title='My caption')
+                                       a(href="/assets/img/table-content.png", data-lightbox='img-' + [x], data-title='My caption')
+                                       a(href="/assets/img/table-content2.png", data-lightbox='img-' + [x], data-title='My caption')
+                                       a(href="/assets/img/table-content.png", data-lightbox='img-' + [x], data-title='My caption')
+
+                            .col-xl-8.col-md-12
+                                .table-content-info
+                                    table
+                                        tbodys
+                                            tr
+                                                 for head in descriptionHead
+                                                     th.th= head
+
+                                            - for (var y=0;y<Math.random()*20;y++)
+                                                tr
+                                                    td.td.td-1 Хомут для канализационных труб, 32мм
+                                                    td.td.td-2 750/25
+                                                    td.td.td-2 6.00
+            .nothing
+                p.nothing_text Совпадений не найдено

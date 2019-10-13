@@ -1,0 +1,148 @@
+//$('#js-animate').click(function () {
+//$('.contact-form').addClass('contact-form-active').removeClass('contact-form');
+//$('.contact-border').addClass('contact-border-active').removeClass('contact-border');
+//$('.contact-form-popup').addClass('contact-form-popup-active');
+//});
+//$('.contact-form-popup').click(function () {
+//console.log(123)
+//$('.contact-form-active').removeClass('contact-form-active').addClass('contact-form');
+//$('.contact-border-active').removeClass('contact-border-active').addClass('contact-border');
+//$('.contact-form-popup-active').removeClass('contact-form-popup-active').addClass('contact-form-popup');
+//})
+//
+.fade.show
+  .contact-form-popup
+    background: rgba(114, 127, 136, 0.7)!important
+    position: fixed!important
+    top: 0!important
+    left: 0!important
+    right: 0!important
+    bottom: 0!important
+    //z-index: 100
+    transition: all 1s ease-out
+  .contact-border
+    left: 115px
+    right: 0
+    z-index: 200
+    width: 520px
+    height: 600px
+    border: 3px solid #003959
+    position: fixed
+    top: 163px
+    transition: all 1s ease-out
+    margin: auto
+  .contact-form
+    font-family: "ProximaNova",serif
+    color: #003959
+    font-weight: bold
+    font-size: 25px
+    padding: 40px 45px
+    width: 520px
+    background: #fff
+    position: fixed
+    top: 200px
+    left: 0
+    transition: all 1s ease-out
+    margin: auto
+    right: 0
+    z-index: 200
+    label
+      font-weight: normal
+    form
+      display: flex
+      flex-direction: column
+      .form-head
+        padding-bottom: 20px
+    input
+      border: none
+      background: #e9f2f8
+      margin-bottom: 10px
+      padding: 5px 10px
+      &[type="submit"]
+        margin-top: 10px
+        background: #003959
+        color: #ffffff
+        font-weight: bold
+        padding-top: 10px
+        padding-bottom: 10px
+.header
+  background: #6eb1d6
+  .header-content
+    width: 100%
+    .logo
+      width: 170px
+      height: 80px
+    li.nav-item
+      display: flex
+      align-items: center
+      margin-left: 75px
+    a
+      font-family: "ProximaNova",serif
+      font-weight: bold
+      color: #fff !important
+      font-size: 18px
+      .button-connection
+        background: #fff
+        color: #003959
+        padding: 10px 8px
+        border: none
+        font-weight: 600
+        &:hover
+          background: #003959
+          color: #fff
+        &:active
+          background: #003959
+          color: #fff
+  .contact-form-popup
+    transition: all 1s ease-out
+  .contact-border
+    width: 520px
+    height: 600px
+    border: 3px solid #003959
+    position: fixed
+    top: 163px
+    right: -1000px
+    transition: all 1s ease-out
+    margin: auto
+  .contact-form
+    font-family: "ProximaNova",serif
+    color: #003959
+    font-weight: bold
+    font-size: 25px
+    padding: 40px 45px
+    width: 520px
+    background: #fff
+    position: fixed
+    top: 200px
+    left: -1000px
+    transition: all 1s ease-out
+    margin: auto
+    label
+      font-weight: normal
+    form
+      display: flex
+      flex-direction: column
+      .form-head
+        padding-bottom: 20px
+    input
+      border: none
+      background: #e9f2f8
+      margin-bottom: 10px
+      padding: 5px 10px
+      &[type="submit"]
+        margin-top: 10px
+        background: #003959
+        color: #ffffff
+        font-weight: bold
+        padding-top: 10px
+        padding-bottom: 10px
+        outline: none
+        cursor: pointer
+        &:active
+          background: #6baacd
+          color: #003959
+        &:hover
+          background: #6baacd
+          color: #003959
+.modal-content
+  border: none !important

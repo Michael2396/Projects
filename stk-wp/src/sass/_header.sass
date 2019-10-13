@@ -1,0 +1,156 @@
+.bolt.bolt-block-1,
+.bolt.bolt-block-2,
+.bolt.bolt-block-3
+  position: absolute
+  top: 25px
+.bolt-block-1
+  left: -65px
+.bolt-block-2
+  left: 217px
+.bolt-block-3
+  right: -60px
+a.tel-header[href^="tel"]
+  color: $black
+  @include media-breakpoint-up(lg)
+    display: none
+    color: $black
+
+
+.bolt,
+.bolt.bolt-footer
+  top: 30px
+  @include media-breakpoint-down(md)
+    display: none
+.bolt-footer
+  display: flex
+  align-items: center
+.bolt-img
+  width: 13px
+  height: 13px
+  transform: rotate(20deg)
+.bolt-img-2
+  transform: rotate(60deg)
+.bolt-phone
+  padding-left: 10px
+.bolt2
+  transform: rotate(20deg)
+  position: absolute
+  top: 5px
+  left: 15px
+.bolt3
+
+  position: absolute
+  bottom: 9px
+  left: 15px
+.bolt4
+  position: absolute
+  top: 5px
+  right: 15px
+.bolt5
+  position: absolute
+  bottom: 9px
+  right: 15px
+.block-header
+  box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.12)
+  padding: 10px 0
+button.navbar-toggler
+  @include media-breakpoint-down(md)
+    margin-right: 15px
+    outline: none
+.navbar-light .navbar-toggler-icon
+  @include media-breakpoint-down(md)
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+.content-contacts
+  .logo
+    .custom-logo
+      width: 170px
+      height: 55px
+    @include media-breakpoint-down(sm)
+      //.custom-logo
+      //  width: 80px
+      //  height: 25px
+  .email-block
+    display: flex
+    padding-left: 55px
+    .emails
+      display: flex
+      flex-direction: column
+    .email-icon
+      line-height: 60px
+      padding-right: 30px
+  .phone-block
+    display: flex
+    padding-left: 55px
+    .phones
+      display: flex
+      flex-direction: column
+    .phone-icon
+      line-height: 60px
+      padding-right: 30px
+  a[href^="mailto"],
+  a[href^="tel"]
+    font-family: "MyriadPro", serif
+    font-size: 18px
+    font-weight: 600
+    color: $black
+    text-decoration: none
+  i.fas.fa-envelope,
+  i.fas.fa-phone
+    font-size: 26px
+  .list-inline.navbar-nav.ml-auto.navbar-nav-mobile
+    .nav-item
+      @include media-breakpoint-down(md)
+        display: flex
+        justify-content: center
+        width: 50%
+nav.navbar.navbar-expand-lg
+  padding: 0
+  @include media-breakpoint-down(md)
+    .phone-icon,
+    .email-icon
+      text-align: center
+      background: #7c7c7c
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      color: $white
+      padding: 0
+    .logo
+      margin-top: 4px
+      padding-left: 15px
+      margin-bottom: 15px
+    .navbar-collapse
+      position: absolute
+      top: 85px
+      left: 0
+      right: 0
+      z-index: 999
+      background: transparentize(#000, 0.3)
+      @include media-breakpoint-down(sm)
+        //top: 55px
+    a[href^="mailto"],
+    a[href^="tel"]
+      font-weight: 400
+      padding: 13px 0
+      text-align: center
+      font-size: 22px
+      color: $white
+    .phone-block,
+    .email-block
+      margin-bottom: 37px
+      margin-top: 40px
+      padding: 0
+      flex-direction: column
+    .email-icon-container,
+    .phone-icon-container
+      margin-bottom: 12px
+      display: flex
+      justify-content: center
+.navbar-nav-mobile
+  @include media-breakpoint-down(md)
+    flex-direction: row-reverse
+.container.container-mobile
+  @include media-breakpoint-down(md)
+    padding: 0
+    width: 100%
+    max-width: none

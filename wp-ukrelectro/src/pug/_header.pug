@@ -1,0 +1,43 @@
+.header
+    .container
+        .row
+            .header-content
+                nav.navbar.navbar-expand-lg.navbar-light
+                    a.navbar-brand(href='#')
+                        .logo-img
+                            img.logo(src="/../assets/images/logo.png")
+                    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    #navbarSupportedContent.collapse.navbar-collapse
+                        ul.navbar-nav.ml-auto
+                            li.nav-item
+                                a.nav-link(href='#') О нас
+                            li.nav-item
+                                a.nav-link(href='#') Оборудование
+                            li.nav-item
+                                a.nav-link(href='#') Контакты
+                            li.nav-item
+                                a.nav-link(href='#')
+                                    button(type="button", data-toggle="modal", data-target="#exampleModal").button-connection
+                                        .button-connection-text Связаться с нами
+                #exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+                    .modal-dialog(role='document')
+                        .modal-content
+                            .contact-form-popup
+                            .contact-border
+                            .contact-form
+                                .contact-form-content
+                                    .form-head.text-center Напишите нам
+                                    form(action="1index.php" method="post" enctype="multipart/form-data")
+                                        label(for="name") Ваше имя
+                                        input(type="text", id="name" placeholder="Иван", name="name")
+                                        label(for="email") Ваш E-mail
+                                        input(type="email", id="email", placeholder="vasha_pochta@gmail.com", name="email")
+                                        label(for="phone") Ваш телефон
+                                        input(type="tel", id="phone", placeholder="+380660000000", name="phone")
+                                        input(type="submit", value="Связаться с нами" name="sab")
+
+
+
+
+

@@ -1,0 +1,437 @@
+.fade.show .contact-form-popup {
+  background: rgba(114, 127, 136, 0.7) !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  transition: all 1s ease-out; }
+.fade.show .contact-border {
+  left: 115px;
+  right: 0;
+  z-index: 200;
+  width: 520px;
+  height: 600px;
+  border: 3px solid #003959;
+  position: fixed;
+  top: 163px;
+  transition: all 1s ease-out;
+  margin: auto; }
+.fade.show .contact-form {
+  font-family: "ProximaNova", serif;
+  color: #003959;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 40px 45px;
+  width: 520px;
+  background: #fff;
+  position: fixed;
+  top: 200px;
+  left: 0;
+  transition: all 1s ease-out;
+  margin: auto;
+  right: 0;
+  z-index: 200; }
+  .fade.show .contact-form label {
+    font-weight: normal; }
+  .fade.show .contact-form form {
+    display: flex;
+    flex-direction: column; }
+    .fade.show .contact-form form .form-head {
+      padding-bottom: 20px; }
+  .fade.show .contact-form input {
+    border: none;
+    background: #e9f2f8;
+    margin-bottom: 10px;
+    padding: 5px 10px; }
+    .fade.show .contact-form input[type="submit"] {
+      margin-top: 10px;
+      background: #003959;
+      color: #ffffff;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+
+.header {
+  background: #6eb1d6; }
+  .header .header-content {
+    width: 100%; }
+    .header .header-content .logo {
+      width: 170px;
+      height: 80px; }
+    .header .header-content li.nav-item {
+      display: flex;
+      align-items: center;
+      margin-left: 75px; }
+    .header .header-content a {
+      font-family: "ProximaNova", serif;
+      font-weight: bold;
+      color: #fff !important;
+      font-size: 18px; }
+      .header .header-content a .button-connection {
+        background: #fff;
+        color: #003959;
+        padding: 10px 8px;
+        border: none;
+        font-weight: 600; }
+        .header .header-content a .button-connection:hover {
+          background: #003959;
+          color: #fff; }
+        .header .header-content a .button-connection:active {
+          background: #003959;
+          color: #fff; }
+  .header .contact-form-popup {
+    transition: all 1s ease-out; }
+  .header .contact-border {
+    width: 520px;
+    height: 600px;
+    border: 3px solid #003959;
+    position: fixed;
+    top: 163px;
+    right: -1000px;
+    transition: all 1s ease-out;
+    margin: auto; }
+  .header .contact-form {
+    font-family: "ProximaNova", serif;
+    color: #003959;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 40px 45px;
+    width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 200px;
+    left: -1000px;
+    transition: all 1s ease-out;
+    margin: auto; }
+    .header .contact-form label {
+      font-weight: normal; }
+    .header .contact-form form {
+      display: flex;
+      flex-direction: column; }
+      .header .contact-form form .form-head {
+        padding-bottom: 20px; }
+    .header .contact-form input {
+      border: none;
+      background: #e9f2f8;
+      margin-bottom: 10px;
+      padding: 5px 10px; }
+      .header .contact-form input[type="submit"] {
+        margin-top: 10px;
+        background: #003959;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        cursor: pointer; }
+        .header .contact-form input[type="submit"]:active {
+          background: #6baacd;
+          color: #003959; }
+        .header .contact-form input[type="submit"]:hover {
+          background: #6baacd;
+          color: #003959; }
+
+.modal-content {
+  border: none !important; }
+
+.contacts {
+  background: #003959;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: url("/assets/images/bg-contacts.png") no-repeat center;
+  position: relative; }
+  .contacts .fade1.show1 .contact-border {
+    width: 392px;
+    height: 481px;
+    border: 3px solid #003959;
+    position: absolute;
+    top: -28px;
+    right: 100px;
+    transition: all 1s ease-out; }
+  .contacts .fade1.show1 .contact-form {
+    font-family: "ProximaNova", serif;
+    color: #003959;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 25px 31px;
+    width: 392px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: all 1s ease-out; }
+    .contacts .fade1.show1 .contact-form label {
+      font-weight: normal; }
+    .contacts .fade1.show1 .contact-form form {
+      display: flex;
+      flex-direction: column; }
+      .contacts .fade1.show1 .contact-form form .form-head {
+        padding-bottom: 20px; }
+    .contacts .fade1.show1 .contact-form input {
+      border: none;
+      background: #e9f2f8;
+      margin-bottom: 10px;
+      padding: 5px 10px; }
+      .contacts .fade1.show1 .contact-form input[type="submit"] {
+        margin-top: 10px;
+        background: #003959;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        cursor: pointer; }
+        .contacts .fade1.show1 .contact-form input[type="submit"]:active {
+          background: #6baacd;
+          color: #003959; }
+        .contacts .fade1.show1 .contact-form input[type="submit"]:hover {
+          background: #6baacd;
+          color: #003959; }
+  .contacts .contacts-header {
+    padding-bottom: 70px;
+    font-size: 25px; }
+  .contacts a {
+    text-decoration: none;
+    color: #fff; }
+  .contacts .contacts-content {
+    padding: 90px 0 206px; }
+    .contacts .contacts-content .contact-text {
+      display: flex;
+      flex-direction: column; }
+    .contacts .contacts-content .contact-logo {
+      padding-right: 40px; }
+  .contacts .contact-address {
+    display: flex;
+    padding: 10px 0; }
+  .contacts .contact-phones {
+    display: flex;
+    padding: 10px 0; }
+  .contacts .contact-email {
+    display: flex;
+    padding: 10px 0; }
+  .contacts .contact-border {
+    width: 392px;
+    height: 481px;
+    border: 3px solid #003959;
+    position: absolute;
+    top: -28px;
+    right: -1000px;
+    transition: all 1s ease-out; }
+  .contacts .contact-form {
+    font-family: "ProximaNova", serif;
+    color: #003959;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 25px 31px;
+    width: 392px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: -2000px;
+    transition: all 1s ease-out; }
+    .contacts .contact-form label {
+      font-weight: normal; }
+    .contacts .contact-form form {
+      display: flex;
+      flex-direction: column; }
+      .contacts .contact-form form .form-head {
+        padding-bottom: 20px; }
+    .contacts .contact-form input {
+      border: none;
+      background: #e9f2f8;
+      margin-bottom: 10px;
+      padding: 5px 10px; }
+      .contacts .contact-form input[type="submit"] {
+        margin-top: 10px;
+        background: #003959;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        cursor: pointer; }
+        .contacts .contact-form input[type="submit"]:active {
+          background: #6baacd;
+          color: #003959; }
+        .contacts .contact-form input[type="submit"]:hover {
+          background: #6baacd;
+          color: #003959; }
+
+.footer {
+  background: #003959;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600; }
+  .footer .footer-menu {
+    display: flex;
+    flex-direction: column; }
+  .footer .footer-numbers {
+    display: flex;
+    flex-direction: column; }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600; }
+    .footer a.padd {
+      padding: 25px 0; }
+  .footer .footer-content-3 {
+    display: flex;
+    justify-content: center; }
+  .footer .logo-content {
+    margin-bottom: 50px; }
+  .footer .copyright {
+    padding: 45px 0 10px 0; }
+  .footer .footer-content-2 {
+    margin-left: 45px; }
+
+.block1 {
+  background: url("../images/block-1-header.png"); }
+  .block1 .h1-block1 {
+    text-align: center;
+    font-size: 57px;
+    letter-spacing: 3px;
+    color: #003959;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    padding-top: 200px; }
+    @media (max-width: 767.98px) {
+      .block1 .h1-block1 {
+        font-size: 29px; } }
+  .block1 .block-like {
+    padding-bottom: 105px;
+    padding-top: 115px; }
+    .block1 .block-like .h4-block-like {
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    .block1 .block-like .like {
+      background: #fff;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+      margin-top: 20px; }
+      @media (max-width: 1349.98px) {
+        .block1 .block-like .like {
+          max-width: 350px;
+          margin: 20px auto; } }
+      .block1 .block-like .like .img-block-like {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 30px; }
+
+.advantage {
+  background: url("../images/advantages-bg.png"); }
+  .advantage .h4-advantage {
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center; }
+  .advantage .description .advantages {
+    padding-bottom: 75px;
+    padding-top: 80px; }
+    @media (max-width: 991.98px) {
+      .advantage .description .advantages {
+        padding-bottom: 25px;
+        padding-top: 25px; } }
+    .advantage .description .advantages .h5-description {
+      font-size: 50px;
+      letter-spacing: 3px;
+      color: #ffffff;
+      font-family: "ProximaNova", sans-serif;
+      font-weight: bold;
+      text-align: center; }
+    .advantage .description .advantages .p-description {
+      font-size: 25px;
+      letter-spacing: 1px;
+      color: #ffffff;
+      font-family: "ProximaNova", sans-serif;
+      text-align: center; }
+
+.about_us {
+  padding-top: 80px; }
+  .about_us .about {
+    text-align: center;
+    font-size: 25px;
+    color: #003959;
+    font-family: "ProximaNova", serif;
+    font-weight: bold; }
+  .about_us .all_text {
+    padding-top: 80px; }
+    .about_us .all_text .about_text {
+      text-align: left;
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: #003959;
+      font-family: "ProximaNova", serif; }
+
+.all {
+  padding-top: 80px;
+  padding-bottom: 50px; }
+  .all .all-block {
+    padding-bottom: 50px; }
+    .all .all-block .name-txt {
+      text-align: left;
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: #003959;
+      font-family: "Proxima Nova", serif;
+      font-weight: bold; }
+    .all .all-block .block {
+      height: 450px;
+      position: relative;
+      margin: 30px 0;
+      text-align: center;
+      padding-top: 30px;
+      padding-left: 30px;
+      box-shadow: 0px 0px 59px -5px rgba(0, 0, 0, 0.12); }
+      .all .all-block .block:hover {
+        background: rgba(0, 0, 0, 0.4); }
+        .all .all-block .block:hover .product {
+          opacity: 0.5; }
+        .all .all-block .block:hover .hover {
+          display: block; }
+        .all .all-block .block:hover .foto {
+          display: none; }
+  .all .abouttext {
+    color: #003959;
+    font-size: 18px;
+    font-family: "ProximaNova", serif;
+    text-align: left;
+    padding-top: 25px; }
+  .all .save {
+    position: absolute;
+    padding-bottom: 20px;
+    margin-top: -55px;
+    margin-right: 30px;
+    right: 0; }
+    .all .save .hover {
+      display: none; }
+  .all .buy {
+    height: 45px;
+    font-family: "ProximaNova", serif;
+    font-size: 18px; }
+    .all .buy .button {
+      background-color: #003959;
+      border: none;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 9px 25px;
+      vertical-align: top;
+      width: 100%; }
+    .all .buy .input {
+      background: #e9f2f8;
+      border: none;
+      height: 100%;
+      width: 100%;
+      color: #003959;
+      padding-left: 20px;
+      margin-right: 30px;
+      clear: both;
+      float: left; }
+      .all .buy .input:focus {
+        background: white; }
+
+/*# sourceMappingURL=style.css.map */
